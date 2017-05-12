@@ -1,12 +1,24 @@
 .sallan{
+	margin-top: 50px;
+	
 	-webkit-animation:sallan 10s ease-in-out 0s infinite;
 	-moz-animation:sallan 10s ease-in-out 0s infinite;
 	animation:sallan 10s ease-in-out 0s infinite;
 	-webkit-transform-origin:50% 0;
 	-moz-transform-origin:50% 0;
 	transform-origin:50% 0;
-}
+	width:40%;
+	height: auto;
 
+}
+@media (max-width:767px){
+	.sallan{
+	width:90%;
+	}
+}
+h1{text-align: center;color: #ffffff; font-size: 50px;margin-bottom:40px;}
+h2{text-align: center;color: #ffffff; font-size: 15px;margin-top:50px;}
+h3{}
 @-webkit-keyframes sallan{
 	0% { -webkit-transform: rotate(0); }
 	5% { -webkit-transform: rotate(10deg); }
