@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 body,
 html{min-height:100%;width:100%;}
-body{font-family:'Indie Flower', cursive;font-size:12px;font-weight:300;position:absolute;right:0;transition:1s;}
+body{font-family: 'Indie Flower', cursive;font-size:12px;font-weight:300;position:absolute;right:0;transition:1s;}
 .border-right{border-right:1px solid #ffffff;}
-footer{ position: absolute;right: 0;bottom: 0;left: 0;padding: 1rem;text-align: center;}
+footer{ position: absolute;right: 0;bottom: 0;left: 0;padding: 1rem;text-align: center;color: #fff;margin-top: 30px;}
 h1{text-align: center;color: #ffffff; font-size: 50px;margin-bottom:40px;display:block;top:50%;-webkit-transform:translateX(0) translateY(0);-moz-transform:translateX(0) translateY(0);transform:translateX(0) translateY(0);}
 h2{text-align: center;color: #ffffff; font-size: 15px;margin-top:50px;-webkit-transform:translateX(0) translateY(0);-moz-transform:translateX(0) translateY(0);transform:translateX(0) translateY(0);}
 h3{text-align: center;color: #ffffff; font-size: 10px;margin-top:50px;-webkit-transform:translateX(0) translateY(0);-moz-transform:translateX(0) translateY(0);transform:translateX(0) translateY(0);}
-#main{color:#ffffff;min-height:100%;width:100%;}
+#main{color:#ffffff;min-height:100%;width:100%;text-align: center;}
 .background,
 .gradient,
 .pattern{left:0;min-height:100%;position:absolute;top:0;width:100%;}
@@ -40,4 +40,111 @@ h3{text-align: center;color: #ffffff; font-size: 10px;margin-top:50px;-webkit-tr
 @media (max-width:767px){.border-right{border-right:none;}
 .canvas.active{right:250px;}
 .offcanvas{right:-250px;}
+}
+
+
+.tarih{  
+
+    text-align: left;
+    color: #DCDCDC;
+    font-size: 15px;
+
+}
+
+
+
+
+	#promo {
+		width:100%;
+		background: rgba(255, 255, 255, 0.05);
+		border: solid 1px rgba(255, 255, 255, 0.25);
+		border-radius: 0.5em;
+		padding: 1em 0.5em 1em 0.5em;
+		display: inline-block;
+		position: relative;
+		z-index: 1;
+	}
+
+		#promo h2 {
+			color: #fff;
+			display: inline-block;
+			margin-right: 1em;
+			font-size: 2em;
+		}
+
+		#promo h4 {
+			color: #fff;
+			display: inline-block;
+			margin-right: 1em;
+			font-size: 1.5em;
+			width: 100%;
+			border-top:1px solid rgba(255, 255, 255, 0.25);
+			padding-top:0.7em;
+		}
+
+		#promo li {
+
+			color: #DCDCDC;
+			width: 100%;
+			display: inline-block;
+			margin-right: 0em;
+			font-size: 1.5em;
+			padding-top:5px;
+     		/*padding-bottom:5px;*/
+			align-items: left;
+			text-align: left;
+			border-top:1px dotted rgba(255, 255, 255, 0.25);
+
+		}
+
+		#promo li:hover{
+			color: #ffffff;
+
+		}
+
+	
+		#promo .button {
+			background: #666;
+			border-color: rgba(255, 255, 255, 0);
+			color: #000;
+			font-size: 1.25em;
+		}
+
+			#promo .button:hover {
+				border-color: rgba(255, 255, 255, 0.75);
+				background-color: rgba(255, 255, 255, 0.15);
+				color: #fff;
+			}
+
+
+#promo-wrapper {
+
+	padding: 5em 0 5em 0;
+}
+
+#promo {
+	 transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+
+				padding: 1em 0.5em 1em 0.5em;
+				display: inline-block;
+			}
+
+				#promo .button {
+					font-size: 1.25em;
+				}
+
+				#promo h2 {
+					display: block;
+					margin: 0.5em 0 0.5em 0;
+					font-size: 2em;
+				}
+#promo:hover{
+    -webkit-box-shadow: 0 0 0.2px 0.2px black;
+    -moz-box-shadow: 0 0 0.2px 0.2px black;
+    box-shadow: 0 0 0.2px 0.2px black;
+ transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
 }
